@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusNotifier", "BusNotifier\BusNotifier.csproj", "{305CDC98-F2AE-4A3F-BAB5-A1E1EA37D9CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{305CDC98-F2AE-4A3F-BAB5-A1E1EA37D9CF}.Debug|x86.ActiveCfg = Debug|x86
+		{305CDC98-F2AE-4A3F-BAB5-A1E1EA37D9CF}.Debug|x86.Build.0 = Debug|x86
+		{305CDC98-F2AE-4A3F-BAB5-A1E1EA37D9CF}.Release|x86.ActiveCfg = Release|x86
+		{305CDC98-F2AE-4A3F-BAB5-A1E1EA37D9CF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

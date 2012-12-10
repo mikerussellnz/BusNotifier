@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BusNotifier" GeneratedClassName="ConfigSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StopNumber" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3057</Value>
+    </Setting>
+    <Setting Name="RouteNumber" Type="System.String" Scope="User">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="RouteUniqueIdentifier" Type="System.String" Scope="User">
+      <Value Profile="(Default)">492</Value>
+    </Setting>
+    <Setting Name="EnableAlerts" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AlertStart" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="AlertEnd" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">600</Value>
+    </Setting>
+    <Setting Name="AlertWhenETA" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
