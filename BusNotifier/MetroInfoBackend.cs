@@ -24,8 +24,9 @@ namespace BusNotifier {
             Dictionary<string, Stop> platforms = new Dictionary<string, Stop>();
 
             foreach (XmlNode platform in xplatforms) {
-                platforms[platform.Attributes["PlatformTag"].Value] = new Stop() {
-                    StopNo = platform.Attributes["PlatformTag"].Value,
+            	platforms[platform.Attributes["PlatformTag"].Value] = new Stop() {
+            		StopNo = platform.Attributes["PlatformTag"].Value,
+            		StopLabel = platform.Attributes["PlatformNo"].Value,
                     Name = platform.Attributes["Name"].Value
                 };
             }
@@ -87,7 +88,7 @@ namespace BusNotifier {
             };
             data.Routes.Add(routeData);
 
-            XmlNodeList trips = destinationNode.SelectNodes("//jp:Trip", nsmgr);
+			XmlNodeList trips = routeNode.SelectNodes("descendant::jp:Trip", nsmgr);
             if (trips != null) {
                 foreach (XmlNode trip in trips) {
                 	routeData.Trips.Add(new TripData() {
